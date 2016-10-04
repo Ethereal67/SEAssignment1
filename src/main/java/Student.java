@@ -21,6 +21,7 @@ public class Student {
         this.dob = dob;
         this.id = id;
         this.course = course;
+        this.studentModules = new ArrayList();
     }
 
     public String getName()
