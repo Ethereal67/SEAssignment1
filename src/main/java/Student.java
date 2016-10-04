@@ -1,6 +1,8 @@
 // Created by Padraic Neylon on 26/09/2016.
 
 
+import java.util.ArrayList;
+
 public class Student {
 
     private String name;
@@ -9,13 +11,16 @@ public class Student {
     private int id;
     private String username;
 
+    private ArrayList<Module> studentModules;
+    private CourseProgramme course;
 
-    public Student(String name, int age, String dob, int id)
-    {
-       this.name = name;
-       this.age = age;
-       this.dob = dob;
-       this.id = id;
+
+    public Student(String name, int age, String dob, int id, CourseProgramme course) {
+        this.name = name;
+        this.age = age;
+        this.dob = dob;
+        this.id = id;
+        this.course = course;
     }
 
     public String getName(String name)
@@ -42,6 +47,20 @@ public class Student {
     {
         username = name + id;
         return username;
+    }
+
+    public CourseProgramme getCourse(CourseProgramme course){
+
+        return this.course;
+    }
+
+    public ArrayList<Module> getStudentModules(){
+
+        return this.studentModules;
+    }
+
+    public void addStudentModules(Module studentModule) {
+        studentModules.add(studentModule);
     }
 
 }
