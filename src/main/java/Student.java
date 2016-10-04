@@ -23,17 +23,17 @@ public class Student {
         this.course = course;
     }
 
-    public String getName(String name)
+    public String getName()
     {
         return this.name;
     }
 
-    public int getAge(int age)
+    public int getAge()
     {
         return this.age;
     }
 
-    public String getDOB(String dob)
+    public String getDOB()
     {
         return this.dob;
     }
@@ -49,7 +49,7 @@ public class Student {
         return username;
     }
 
-    public CourseProgramme getCourse(CourseProgramme course){
+    public CourseProgramme getCourse(){
 
         return this.course;
     }
