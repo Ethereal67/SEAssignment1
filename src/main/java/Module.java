@@ -18,12 +18,12 @@ public class Module {
         studentList = new ArrayList<Student>();
     }
 
-    public String getModuleName(String moduleName)
+    public String getModuleName()
     {
         return this.moduleName;
     }
 
-    public String getModuleID(String moduleID)
+    public String getModuleID()
     {
         return this.moduleID;
     }
