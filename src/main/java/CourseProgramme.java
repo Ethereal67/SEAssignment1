@@ -22,7 +22,7 @@ public class CourseProgramme {
         modules = new ArrayList<Module>();
     }
 
-    public String getCourseName(String courseName)
+    public String getCourseName()
     {
         return this.courseName;
     }
