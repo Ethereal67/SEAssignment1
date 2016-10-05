@@ -22,6 +22,11 @@ public class CourseProgramme {
         modules = new ArrayList<Module>();
     }
 
+    public String toString(){
+
+        return "Course name: " + this.courseName;
+    }
+
     public String getCourseName()
     {
         return this.courseName;
