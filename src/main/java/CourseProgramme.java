@@ -24,7 +24,7 @@ public class CourseProgramme {
 
     public String toString(){
 
-        return "Course name: " + this.courseName;
+        return this.courseName;
     }
 
     public String getCourseName()
